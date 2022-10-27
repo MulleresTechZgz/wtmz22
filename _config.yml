@@ -24,6 +24,7 @@ telephone:
 copyright:
 
 # Tickets
+sold_out_tickets_first: false
 sold_out_tickets: false
 
 # Timezone

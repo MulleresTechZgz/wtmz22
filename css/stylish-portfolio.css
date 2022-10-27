@@ -586,6 +586,11 @@ footer {
     font-weight: 100;
 }
 
+.lead_big {
+    font-size: 26px;
+    font-weight: 100;
+}
+
 /* introduction */
 
 .introduction {
@@ -765,10 +770,26 @@ footer {
     -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 }
 
-/*.btn-primary:hover {
-    background: black;
-    border-color: black!important;
-}*/
+
+.btn-primary_tickets {
+    background: #fff;
+    border-color: transparent!important;
+    color: #4285f4;
+    text-transform: uppercase;
+    text-decoration: bold;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    -ms-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.btn-primary_tickets:hover {
+    background: #1ce9b6;
+    border-color: #1ce9b6!important;
+    color: #fff;
+}
 
 .btn-secondary {
     border: 2px inset #4285f4;
