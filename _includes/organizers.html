@@ -19,6 +19,7 @@
                     {% assign image_organizer = organizer.image | strip_newlines %}
                     {% assign image_card_organizer = organizer.image_card | strip_newlines %}
                     {% assign twitter_organizer = organizer.twitter_account | strip_newlines %}
+                    {% assign instagram_organizer = organizer.instagram_account | strip_newlines %}
                     {% assign linkedin_organizer = organizer.linkedin_account | strip_newlines %}
                     {% assign mail_organizer = organizer.mail_account | strip_newlines %}
                     {% assign bio_organizer = organizer.bio | strip_newlines %}
@@ -37,6 +38,9 @@
                   <!--<a href="#" class="btn btn-light">Learn More</a>-->
                   {% if twitter_organizer != ""  %}
                   <a href="https://twitter.com/{{ organizer.twitter_account }}" target="_blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                  {% endif %}
+                  {% if instagram_organizer != ""  %}
+                  <a href="https://instagram.com/{{ organizer.instagram_account }}" target="_blank"><i class="fa fa-instagram fa-fw fa-2x"></i></a>
                   {% endif %}
                   {% if linkedin_organizer != ""  %}
                   <a href="https://www.linkedin.com/in/{{ organizer.linkedin_account }}" target="_blank"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
@@ -76,6 +80,9 @@
                                {% if twitter_organizer != ""  %}
                                 <a href="https://twitter.com/{{ organizer.twitter_account }}" target="_blank">
                                     <i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                                {% endif %}
+                                {% if instagram_organizer != ""  %}
+                                <a href="https://instagram.com/{{ organizer.instagram_account }}" target="_blank"><i class="fa fa-instagram fa-fw fa-2x"></i></a>
                                 {% endif %}
                                 {% if linkedin_organizer != ""  %}
                                 <a href="https://www.linkedin.com/in/{{ organizer.linkedin_account }}" target="_blank">
